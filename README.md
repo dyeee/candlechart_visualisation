@@ -6,7 +6,8 @@ Financial data visualisation using D3
 - The Financial Maps and Run Bubbles pages in the right-side panel are not yet completed (the design details can be seen in the images)
 * Run this project in WebStorm
 
-[![Demo video](https://youtu.be/Cj3-nrQYO_0)
+## Demo video:
+https://youtu.be/Cj3-nrQYO_0
 
 ![image](https://github.com/dyeee/candlechart_visualisation/assets/30337745/34a97196-232a-4dae-9f6f-3d87340494b1)
 ![image](https://github.com/dyeee/candlechart_visualisation/assets/30337745/b55e03d4-be75-4730-8607-7f9241640888)
