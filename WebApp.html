@@ -1,4 +1,4 @@
-b<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -28,7 +28,7 @@ b<!DOCTYPE html>
             .append('button')
             .text(function(d) { return d; })
             .on('click', function(name, index) {
-                var companyName = companyNames[WebApp];
+                var companyName = companyNames[index];
                 d3.select('#company').text(name + ' (' + companyName + ')');
                 CSV = name;
                 document.getElementById('csv-input').value = CSV;
@@ -36,7 +36,6 @@ b<!DOCTYPE html>
             });
     </script>
 </div>
-
 
 <div id="right-floating-menu">
     <button onclick="redirectToPage('WebApp.html')">Candlestick Chart</button>
