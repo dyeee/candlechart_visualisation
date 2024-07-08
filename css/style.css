@@ -1,0 +1,133 @@
+#right-floating-menu {
+    position: fixed;
+    top: 40%;
+    right: 20px;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#right-floating-menu button {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #006ddb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#right-floating-menu button.active {
+    background-color: #920000;
+}
+
+#right-floating-menu button:hover {
+    background-color: #6db6ff;
+}
+
+#buttons-container {
+    position: fixed;
+    top: 20px; /* 距離頂部的距離 */
+    left: 52%; /* 將容器置中 */
+    transform: translateX(-50%);
+    padding: 12px 12px; /* 上下左右的內邊距 */
+    background-color: #1E2A78; /* 深藍色背景 */
+    color: #FFFFFF; /* 字體顏色 */
+    border-radius: 8px; /* 圓角 */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* 陰影效果 */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* 商業常用字體 */
+    font-size: 24px; /* 字體大小 */
+    z-index: 999; /* 確保容器位於其他元素之上 */
+         /* 向下挪動的距離 */
+    }
+
+#company {
+    font-size: 22px; /* 字体大小 */
+    font-family: "Arial", sans-serif; /* 商业用字体 */
+    color: #c23c3c; /* 深蓝色 */
+    padding: 10px; /* 在四个方向上都增加 5px 的内边距 */
+
+}
+
+.upGreenArrow{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 4.5px 12px 4.5px;
+    border-color: transparent transparent #00ff00 transparent;
+}
+
+.downRedArrow{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12px 4.5px 0 4.5px;
+    border-color: #ff0000 transparent transparent transparent;
+}
+
+.upArrow{
+    position: relative;
+    top: -15px;
+    left: -10px;
+    width:0;
+    height:0;
+    border: 6px solid transparent;
+    border-bottom-color: #00ff00;
+}
+.upArrow:after{
+    position: absolute;
+    content: '';
+    top: 20px;
+    left: -3px;
+    width: 6px;
+    height: 10px;
+    background: #00ff00;
+}
+
+.downArrow{
+    position: relative;
+    top: 18px;
+    left: -10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-top-color: #ff0000;
+}
+.downArrow:after{
+    position: absolute;
+    content: '';
+    top: -15px;
+    left: -3px;
+    width: 6px;
+    height: 10px;
+    background: #ff0000;
+}
+
+
+/* d3 candle stick start */
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    fill: black;
+}
+
+/* d3 candle stick end */
+
+body {
+    background-color: white;
+}
