@@ -8,6 +8,6 @@ Financial data visualisation using D3
 
 [![Demo video](https://youtu.be/Cj3-nrQYO_0)
 
-![image](https://github.com/dyeee/candlechart_visualisation/assets/30337745/ba8cb1d7-6fad-434b-a6ee-b8401b5ffe94)
-![image](https://github.com/dyeee/candlechart_visualisation/assets/30337745/086c6cb3-4d2d-4982-8b1b-90fb184eca07)
-![image](https://github.com/dyeee/candlechart_visualisation/assets/30337745/66da3bc2-ac98-4323-a8b2-2f37c6a0f28c)
+![image](https://github.com/dyeee/candlechart_visualisation/assets/30337745/34a97196-232a-4dae-9f6f-3d87340494b1)
+![image](https://github.com/dyeee/candlechart_visualisation/assets/30337745/b55e03d4-be75-4730-8607-7f9241640888)
+![image](https://github.com/dyeee/candlechart_visualisation/assets/30337745/bc8e85e2-e350-4352-bbf7-d241fc790605)
