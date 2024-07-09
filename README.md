@@ -1,4 +1,4 @@
-# candlechart_visualisation
+# Candlestick Charts
 Financial data visualisation using D3
 
 - Scrolling the mouse wheel can zoom in and out
